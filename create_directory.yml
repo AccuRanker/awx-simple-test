@@ -2,9 +2,8 @@
 - name:  name: create_directory
   hosts: DevOps
   tasks:
-
-   - name: Create a directory
-     file:
-       path: /tmp/directory_created_through_awx
-       state: directory
+    - name: Create a directory
+      file:
+        path: /tmp/directory_created_through_awx
+        state: directory
 ...
